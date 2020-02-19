@@ -112,10 +112,10 @@ linters-settings:
   
   run:
     skip-dirs:
-      - test/testdata_etc
-      - internal/cache
-      - internal/renameio
-      - internal/robustio
+    #   - test/testdata_etc
+    #   - internal/cache
+    #   - internal/renameio
+    #   - internal/robustio
   
   # golangci.com configuration
   # https://github.com/golangci/golangci/wiki/Configuration
